@@ -6,3 +6,23 @@ Green: #00B172
 White: #FFF
 
 */
+
+.nav-logo {
+  width:  90px;
+}
+
+.nav-ul {
+   /* remove default left padding for ul tag */
+  padding: 0;
+  /* remove default bullets points from ul tag */
+  list-style-type: none; 
+  /* use display flex to align spotify logo and links */
+  display: flex;
+  /* create space between links and logo */
+  justify-content: space-evenly;
+}
+
+.nav-links {
+  /* remove default underline from a tag */
+  text-decoration: none;
+}
